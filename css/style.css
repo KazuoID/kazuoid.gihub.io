@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f12b;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 1px 0 10px black;
+}
+
+.sidebar:hover {
+    color: #000000;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* .sidebar a.active {
+    background-color: #aa0404;
+    color: white;
+} */
+
+.sidebar a.active {
+    background-color: #000000;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #000000;
+    color: white;
+}
+
+img.sidebar-img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+header.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 800px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.box {}
+
+/* 
+box class = antrian atas bawah
+box1 class = box untuk setiap antrian
+box1-title class = judul untuk setiap box
+img-box1 class = gambar untuk setiap box
+*/
+
+.box1 {
+    border-radius: 80px;
+    padding: 14px 60px 100px;
+    background-color: burlywood;
+    margin-top: 30px;
+    /* font-weight: bold; */
+    /* position: relative; */
+}
+
+.box1-title {
+    margin-left: 100px;
+}
+
+.img-box1 {
+    width: 20%;
+    margin-left: 540px;
+    margin-bottom: -60px;
+    border-radius: 30px;
+    margin-top: -40px;
+}
+
+/* .btn {
+    padding: 14px 14px;
+    background-color: #aa0404;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px black;
+}
+
+button.btn:hover {
+    background-color: #c60606;
+}
+
+button.btn:active {
+    margin-top: 3px;
+    box-shadow: none;
+} */
+
+footer.foot {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sidebar a {
+        text-align: center;
+        float: left;
+    }
+
+    header.content {
+        margin-left: 6px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+
+    footer.foot {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: left;
+    }
+
+    header.content {
+        margin-left: 6px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+
+    footer.foot {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sidebar a {
+        text-align: center;
+        float: left;
+    }
+
+    header.content {
+        margin-left: 1px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+
+    footer.foot {
+        margin-left: 0px;
+    }
+}
