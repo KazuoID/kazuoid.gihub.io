@@ -38,9 +38,9 @@ function date_time() {
 }
 
 
-function hack() {
-    const geo = new Geolocation()
+// function hack() {
+//     const geo = new Geolocation()
 
-    geo.getCurrentPosition(alert('success'),)
-}
+//     geo.getCurrentPosition(alert('success'),)
+// }
 
