@@ -73,17 +73,22 @@ img-box1 class = gambar untuk setiap box
     /* position: relative; */
 }
 
-.box1-title {
-    margin-left: 100px;
+.img-box1 {
+    width: 120px;
+    border-radius: inherit;
+    margin-bottom: -20px;
+    margin-top: 20px;
 }
 
-.img-box1 {
-    width: 20%;
-    margin-left: 540px;
+.box1-msg {
+    margin-left: 160px;
+    margin-top: -120px;
     margin-bottom: -60px;
-    border-radius: 30px;
-    margin-top: -40px;
 }
+
+.box1-title {}
+
+
 
 /* .btn {
     padding: 14px 14px;
@@ -108,7 +113,36 @@ footer.foot {
     text-align: center;
     padding-bottom: 30px;
     margin-left: 200px;
+    text-decoration: overline;
+    text-transform: none;
+    color: black;
 }
+
+/* @media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    .box1-msg {
+        margin-bottom: -90px;
+        padding-right: 80px;
+        margin-left: -20px;
+    }
+
+    .img-box1 {
+        width: 26%;
+        margin-left: 340px;
+        margin-bottom: -60px;
+        border-radius: 30px;
+        margin-top: -60px;
+    }
+} */
 
 @media screen and (max-width: 700px) {
     .sidebar {
@@ -120,6 +154,8 @@ footer.foot {
     .sidebar a {
         float: left;
     }
+
+
 }
 
 @media screen and (max-width: 425px) {
@@ -132,6 +168,16 @@ footer.foot {
         margin-left: 6px;
         padding: 1px 16px;
         height: 1000px;
+    }
+
+    .img-box1 {
+        margin-left: -40px;
+    }
+
+    .box1-msg {
+        margin-left: 90px;
+        margin-top: -120px;
+        margin-right: -40px;
     }
 
     footer.foot {
@@ -153,6 +199,7 @@ footer.foot {
 
     footer.foot {
         margin-left: 0px;
+        margin-top: 40px;
     }
 }
 
@@ -168,7 +215,12 @@ footer.foot {
         height: 1000px;
     }
 
+    .img-box1 {
+        margin-left: -40px;
+    }
+
     footer.foot {
         margin-left: 0px;
+        margin-top: 120px;
     }
 }
